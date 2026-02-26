@@ -4,6 +4,9 @@ build/
 karate-reports/
 *.log
 
+# Ignore toàn bộ thư mục data chứa dữ liệu test
+src/test/java/data/
+
 # --- IDE ---
 .idea/
 .vscode/
@@ -13,4 +16,5 @@ karate-reports/
 .env
 user-config.json
 secret.properties
+
 # Không bao giờ push các file này lên GitHub/GitLab
