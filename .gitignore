@@ -5,7 +5,7 @@ karate-reports/
 *.log
 
 # Ignore toàn bộ thư mục data chứa dữ liệu test
-src/test/java/data/
+data/
 
 # --- IDE ---
 .idea/
