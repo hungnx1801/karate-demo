@@ -1,24 +1,16 @@
-# Nestjs specific
-/dist
-/node_modules
-/build
-/tmp
-
-# Logs
-logs
+# --- Karate & Build ---
+target/
+build/
+karate-reports/
 *.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
 
-# dotenv environment variable files
+# --- IDE ---
+.idea/
+.vscode/
+*.iml
+
+# --- SECRETS (QUAN TRỌNG) ---
 .env
-.env.development
-.env.test
-.env.production
-
-# temp directory
-.temp
-.tmp
+user-config.json
+secret.properties
+# Không bao giờ push các file này lên GitHub/GitLab
